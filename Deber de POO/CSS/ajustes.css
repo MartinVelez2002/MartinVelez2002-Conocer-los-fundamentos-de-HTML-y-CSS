@@ -1,0 +1,216 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.centr .card{
+    align-items: center;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    padding-top: 100px;
+    text-align: center;
+
+}
+/* PERFIL */
+.parte1{
+    display: flex;
+    padding:100px;
+
+}
+
+/* EXPERIENCIA */
+
+.contacto{
+  background-color:rgba(93, 202, 102, 0.171);
+  border-radius: 25px;
+  padding:2%;
+  margin-bottom: 4%;
+}
+
+.mensaje{
+  height: 100px;
+  width:100%;
+  border-radius: 10px;
+}
+
+.parte3{
+  padding-bottom: 350px;
+  padding-top: 400px;
+}
+
+.parte4{
+    padding: 175px;
+}
+
+
+/* HABILIDADES */
+.container .border{
+  box-shadow: 2px 5px 10px rgba(94, 69, 240, 0.884);
+
+}
+.hability{
+  align-content: center;
+  
+}
+.border:hover{
+  color:blue;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.container .border{
+  border-radius: 50px;
+}
+.dis .res .pe:hover{
+  color:#7ef03c;
+}
+/* EXPERIENCIA */
+.experiencia {
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+  }
+    
+  .experiencia-body {
+    background-color: #7ef03c;
+    color: rgb(0, 0, 0);
+  }
+    
+    
+  .svg_bottom {
+    transform: scaleY(-1);
+    top: -2px;
+  }
+    
+  .experiences-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 25px;
+  }
+    
+  .experience-date {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+    
+  .experience-company {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+    
+  .experience-position {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+    
+  .experience-description {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+    
+  .experience {
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+    
+  @media (min-width: 950px) {
+    .experiences-title {
+      font-size: 50px;
+      margin: 2px 0;
+    }
+    
+    .experience-date {
+      font-size: 40px;
+    }
+    
+    .experience-company {
+      font-size: 25px;
+    }
+    
+    .experience-position {
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+    
+    .experience-description {
+      font-size: 20px;
+      margin-top: 10px;
+      line-height: 1.3;
+    }
+    
+    .experience {
+      padding: 0;
+    }
+    
+    .experience_left {
+      text-align: right;
+    }
+    
+    .experiences-grid {
+      display: grid;
+      grid-template-columns: auto 2px auto;
+      gap: 20px 70px;
+      padding: 70px;
+      justify-content: center;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    
+    .line {
+      background-color: black;
+      position: relative;
+    }
+    
+    .line::before,
+    .line::after {
+      content: "";
+      display: block;
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      border-radius: 50%; 
+      position: absolute;
+      top: -20px;
+      left: -9px;
+    }
+    
+    .line::after {
+      top: 100%;
+      z-index: 1;
+    } 
+
+  }
+  @media(min-width:450px){
+    .six .row img{
+      margin-top:5%;
+      width: 350px;
+      align-content: center;
+    }
+  }
+  .navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar-nav .nav-item{
+    padding: 0 30px;
+}
+.dis .nav-item .nav-link{
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+}
+.nav-item{
+  text-align: center;
+}
